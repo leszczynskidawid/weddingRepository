@@ -8,10 +8,7 @@ const CardCompoonent = ({ path, image, title }) => {
         overflow: "hidden",
       }}
     >
-      <a
-        href="https://photos.app.goo.gl/XyREYzrzPpDcrui59"
-        style={{ textDecoration: "none" }}
-      >
+      <a href={path} style={{ textDecoration: "none" }}>
         <Card
           component={motion.div}
           initial={{ scale: 0, y: 100 }}
